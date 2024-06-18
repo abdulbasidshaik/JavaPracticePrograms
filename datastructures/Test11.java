@@ -44,11 +44,45 @@ class LinkedList
 		return list;
 	}
 	
+	//print the LinkedList
+	public static void printList(LinkedList list)
+	{
+		Node currNode = list.head;
+		System.out.println("LinkedList: ");
+		
+		//traversing through out the list
+		while(currNode != null)
+		{
+			//printing current node
+			System.out.println(currNode.data + " ");
+			
+			//goto next node
+			currNode = currNode.next;
+		}
+	}
 }
 public class Test11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		//starts with empty list
+		LinkedList list = new LinkedList();
+		
+		//insering values
+		list = list.insert(list, 10);
+		list = list.insert(list, 20);
+		list = list.insert(list, 30);
+		list = list.insert(list, 40);
+		list = list.insert(list, 50);
+		list = list.insert(list, 60);
+		list = list.insert(list, 70);
+		list = list.insert(list, 80);
+		list = list.insert(list, 90);
+		list = list.insert(list, 100);
+		
+		//printing the linkedlist
+		list.printList(list);
 		
 
 	}
