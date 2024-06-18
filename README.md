@@ -1,4 +1,4 @@
-# JavaPracticePrograms
+# Wipro JavaPracticePrograms
 
 ## Table of Contents
 - [Introduction](#introduction)
