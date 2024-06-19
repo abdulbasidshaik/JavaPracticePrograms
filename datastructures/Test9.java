@@ -46,12 +46,21 @@ class Stack
 	
 	int peek() {
         if (top < 0) {
-            System.out.println("Stack is Empty");
+            System.out.println("Stack is underflow..");
             return 0;
         } else {
-            return a[top];
+            int x = a[top];
+            return x;
         }
     }
+	
+	void print()
+	{
+		for(int i = top; i > -1; i--)
+		{
+			System.out.println(" "+a[i]);
+		}
+	}
 }
 public class Test9 {
 

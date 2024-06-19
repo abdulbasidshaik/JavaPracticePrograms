@@ -69,6 +69,21 @@ class Queue
             System.out.println();
         }
 	}
+	
+	 // Print front element of the queue
+	static void dequeueFront()
+	{
+		if(front == rear)
+		{
+			System.out.println("\n Queue is Empty");
+			return;
+		}
+		else
+		{
+			System.out.println("\n Front Element is: %d" + queue[front]);
+		}
+		
+	}
 }
 
 public class Test7 {
