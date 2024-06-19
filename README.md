@@ -26,4 +26,4 @@ JavaPracticePrograms is a collection of Java programs aimed at helping developer
 ## Installation
 To get started with JavaPracticePrograms, clone the repository to your local machine using the following command:
 ```sh
-git clone https://github.com/yourusername/JavaPracticePrograms.git
+git clone https://github.com/abdulbasidshaik/JavaPracticePrograms.git
